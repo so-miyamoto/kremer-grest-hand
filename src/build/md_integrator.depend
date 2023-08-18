@@ -1,0 +1,3 @@
+md_integrator.o: md_integrator.cpp md_integrator.h md_system.h atoms.h \
+  vector3d.h cell_list.h pair_potential.h sim_box.h systemIO.h \
+  observer.h bond.h rand.h dSFMT.h

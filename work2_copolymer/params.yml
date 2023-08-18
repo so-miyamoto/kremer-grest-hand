@@ -1,0 +1,54 @@
+
+system:
+  box_size: [30.0,10.0,10.0] 
+  number_density: 0.75
+
+molecule:
+  atoms: 12 # atoms per linear chain
+
+
+potential:
+  bond:
+    type: 0 # 0: hookean 1: FENE
+    spring_constant: 10.0
+    equi_length: 0.0  # for hookean spring
+    max_length: 1.5    # for fene spring
+
+  pair:
+    margine: 0.5
+    num_types: 3
+    # 2^(1/6) = 1.12246204831
+    # cutoff:
+    #   1: [1.12246204831]
+    # LJeps:
+    #   1: [1.0]
+    cutoff:
+      1: [2.0, 1.12246204831, 2.0]
+      2: [1.12246204831, 2.0, 1.12246204831]
+      3: [2.0, 1.12246204831, 2.0]
+    LJeps:
+      1: [1.0, 1.0, 1.0]
+      2: [1.0, 1.0, 1.0]
+      3: [1.0, 1.0, 1.0]
+
+integrate:
+  max_step: 50000
+  obs_step: 500
+  dt: 0.01
+
+thermostat:
+  temperature: 0.6
+  scaling_interval: 100 # if 0 : Off
+  scaling_final_step: 10000
+  
+  use_langevin: false
+  langevin_friction: 0.5
+
+  use_nose_hoover: false
+  nose_tau: 1.0
+
+
+option:
+  seed: 42
+  use_random_seed: true
+

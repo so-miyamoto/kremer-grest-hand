@@ -1,0 +1,2 @@
+observer.o: observer.cpp observer.h atoms.h vector3d.h sim_box.h \
+  cell_list.h pair_potential.h bond.h

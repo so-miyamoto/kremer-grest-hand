@@ -1,0 +1,123 @@
+# read potentials configure from yaml
+# read integrate configure from yaml
+# read thermostat configure from yaml
+# set main objects for simulation
+# opened dumpfile: LJrun.dump
+# reading final.dump
+# atom size = 4800
+# box size = {17.810000, 17.810000, 17.810000}
+# number density = 0.849668
+# finish loading
+# observer initialized
+# observer open a new file: stat.log
+# activate langevin integrator
+# step=0
+# step=30000
+# step=60000
+# step=90000
+# step=120000
+# step=150000
+# step=180000
+# step=210000
+# step=240000
+# step=270000
+# step=300000
+# step=330000
+# step=360000
+# step=390000
+# step=420000
+# step=450000
+# step=480000
+# step=510000
+# step=540000
+# step=570000
+# step=600000
+# step=630000
+# step=660000
+# step=690000
+# step=720000
+# step=750000
+# step=780000
+# step=810000
+# step=840000
+# step=870000
+# step=900000
+# step=930000
+# step=960000
+# step=990000
+# step=1020000
+# step=1050000
+# step=1080000
+# step=1110000
+# step=1140000
+# step=1170000
+# step=1200000
+# step=1230000
+# step=1260000
+# step=1290000
+# step=1320000
+# step=1350000
+# step=1380000
+# step=1410000
+# step=1440000
+# step=1470000
+# step=1500000
+# step=1530000
+# step=1560000
+# step=1590000
+# step=1620000
+# step=1650000
+# step=1680000
+# step=1710000
+# step=1740000
+# step=1770000
+# step=1800000
+# step=1830000
+# step=1860000
+# step=1890000
+# step=1920000
+# step=1950000
+# step=1980000
+# step=2010000
+# step=2040000
+# step=2070000
+# step=2100000
+# step=2130000
+# step=2160000
+# step=2190000
+# step=2220000
+# step=2250000
+# step=2280000
+# step=2310000
+# step=2340000
+# step=2370000
+# step=2400000
+# step=2430000
+# step=2460000
+# step=2490000
+# step=2520000
+# step=2550000
+# step=2580000
+# step=2610000
+# step=2640000
+# step=2670000
+# step=2700000
+# step=2730000
+# step=2760000
+# step=2790000
+# step=2820000
+# step=2850000
+# step=2880000
+# step=2910000
+# step=2940000
+# step=2970000
+# finish simulator run
+# closed dumpfile
+# opened dumpfile: final.dump
+5105 [sec]
+5.1055e+06 [msec]
+Sun Sep 18 14:31:42 2022
+
+# === end of simulation :) ===
+# observer close a file: stat.log
+# closed dumpfile

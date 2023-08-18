@@ -1,0 +1,34 @@
+main.o: main.cpp md_system.h atoms.h vector3d.h cell_list.h \
+  pair_potential.h sim_box.h systemIO.h observer.h bond.h \
+  md_integrator.h rand.h dSFMT.h timer.h \
+  /Users/miyamoto/local/include/yaml-cpp/yaml.h \
+  /Users/miyamoto/local/include/yaml-cpp/parser.h \
+  /Users/miyamoto/local/include/yaml-cpp/dll.h \
+  /Users/miyamoto/local/include/yaml-cpp/emitter.h \
+  /Users/miyamoto/local/include/yaml-cpp/binary.h \
+  /Users/miyamoto/local/include/yaml-cpp/emitterdef.h \
+  /Users/miyamoto/local/include/yaml-cpp/emittermanip.h \
+  /Users/miyamoto/local/include/yaml-cpp/null.h \
+  /Users/miyamoto/local/include/yaml-cpp/ostream_wrapper.h \
+  /Users/miyamoto/local/include/yaml-cpp/emitterstyle.h \
+  /Users/miyamoto/local/include/yaml-cpp/stlemitter.h \
+  /Users/miyamoto/local/include/yaml-cpp/exceptions.h \
+  /Users/miyamoto/local/include/yaml-cpp/mark.h \
+  /Users/miyamoto/local/include/yaml-cpp/noexcept.h \
+  /Users/miyamoto/local/include/yaml-cpp/traits.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/node.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/ptr.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/type.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/impl.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/detail/memory.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/detail/node.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/detail/node_ref.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/detail/node_data.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/detail/node_iterator.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/iterator.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/detail/iterator.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/convert.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/detail/impl.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/parse.h \
+  /Users/miyamoto/local/include/yaml-cpp/node/emit.h
