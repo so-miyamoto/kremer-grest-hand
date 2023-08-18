@@ -1,1 +1,0 @@
-atoms.o: atoms.cpp atoms.h vector3d.h
